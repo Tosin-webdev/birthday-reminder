@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import data from "./data";
 import List from "./List";
 
+// App function
 function App() {
   const [people, setPeople] = useState(data);
   return (
@@ -14,5 +15,6 @@ function App() {
     </main>
   );
 }
+// App function end
 
 export default App;
